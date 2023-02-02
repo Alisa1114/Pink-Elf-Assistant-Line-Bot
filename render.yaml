@@ -2,7 +2,7 @@ services:
 - type: web
   name: line-bot-python-flask
   env: python
-  repo: https://github.com/line/line-bot-sdk-python.git
+  repo: https://github.com/Alisa1114/Pink-Elf-Assistant-Line-Bot.git
   buildCommand: pip install gunicorn -r requirements.txt
   startCommand: gunicorn app:app
   plan: free
